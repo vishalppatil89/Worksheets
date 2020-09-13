@@ -1,0 +1,66 @@
+WORKSHEET 2
+PYTHON 
+
+1. B
+
+2. C
+
+3. A
+
+4. B
+
+5. A
+
+6. C
+
+7. A
+
+8. B
+
+9. A, B, AND D
+
+10. B
+
+11. Differentiate between a list, tuple, set and dictionary. 
+
+A. LIST:
+   a. List is a ordered collection of items.
+   b. Lists are Mutable.
+   c. Items in the list can be replaced or changed.
+B. Set:
+   a. Set is an unordered collection of items.
+   b. Sets are Immutable.
+   c. Items in the set cannot be replaced or changed.
+C. Dictionary:
+   a. Dictionary is an unordered collection of sets.
+   b. Dictionaries are Mutable.
+   c. Dictionaries are accessed via keys and not via their position.
+D. Tuple:
+   a. Tuple is a ordered collection of items.
+   b. Tuples are Immutable.
+   c. Items in the set cannot be replaced or changed.
+
+12. Are strings mutable in python? Suppose you have a string “I+Love+Python”, write a small code to replace ‘+
+with space in python. 
+Strings are Immutable.
+
+>>> string="I+Love+Python"
+>>> str_new = string.replace("+"," ")
+>>> print(str_new)
+I Love Python
+
+13. What does the function ord() do in python? Explain with example. Also, write down the function for getting 
+the datatype of a variable in python. 
+
+ord(): It is a function which returns the number representing the unicode of a specified character.
+Example: 
+>>> a=ord("A")
+>>> print(a)
+65
+
+>>> def datatype(a):
+	print(type(a))
+
+	
+>>> datatype("Python")
+<class 'str'>

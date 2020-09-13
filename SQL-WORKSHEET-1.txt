@@ -1,0 +1,61 @@
+SQL-WORKSHEET-1
+
+1. A AND D
+
+2. A AND B
+
+3. B
+
+4. B
+
+5. A
+
+6. A
+
+7. B
+
+8. B
+
+9. B
+
+10. A
+
+11. What is data-warehouse? 
+A Data Warehousing (DW) is process for collecting and managing data from varied sources to provide meaningful business insights. A Data warehouse is typically used to connect and analyze business data from heterogeneous sources. The data warehouse is the core of the BI system which is built for data analysis and reporting. It is a blend of technologies and components which aids the strategic use of data. It is electronic storage of a large amount of information by a business which is designed for query and analysis instead of transaction processing. It is a process of transforming data into information and making it available to users in a timely manner to make a difference.
+
+12. What is the difference between OLTP VS OLAP? 
+OLTP and OLAP both are the online processing systems. OLTP is a transactional processing while OLAP is an analytical processing system. OLTP is a system that manages transaction-oriented applications on the internet for example, ATM. OLAP is an online system that reports to multidimensional analytical queries like financial reporting, forecasting, etc. The basic difference between OLTP and OLAP is that OLTP is an online database modifying system, whereas, OLAP is an online database query answering system.
+
+Key Differences Between OLTP and OLAP
+
+A. The point that distinguishes OLTP and OLAP is that OLTP is an online transaction system whereas, OLAP is an online data retrieval and analysis system.
+
+B. Online transactional data becomes the source of data for OLTP. However, the different OLTPs database becomes the source of data for OLAP.
+
+C. OLTP’s main operations are insert, update and delete whereas, OLAP’s main operation is to extract multidimensional data for analysis.
+
+D. OLTP has short but frequent transactions whereas, OLAP has long and less frequent transaction.
+
+E. Processing time for the OLAP’s transaction is more as compared to OLTP.
+
+F. OLAPs queries are more complex with respect OLTPs.
+
+G. The tables in OLTP database must be normalized (3NF) whereas, the tables in OLAP database may not be normalized.
+
+H. As OLTPs frequently executes transactions in database, in case any transaction fails in middle it may harm data’s integrity and hence it must take care of data integrity. While in OLAP the transaction is less frequent hence, it does not bother much about data integrity.
+
+13. What are the various characteristics of data-warehouse? 
+There are three prominent data warehouse characteristics:
+
+Integrated: The way data is extracted and transformed is uniform, regardless of the original source.
+
+Time-variant: Data is organized via time-periods (weekly, monthly, annually, etc.).
+
+Non-volatile: A data warehouse is not updated in real-time. It is periodically updated via the uploading of data, protecting it from the influence of momentary change.
+
+14. What is Star-Schema?? 
+Star schema is a simplest form of dimensional data model where the data is organized into facts and dimensions. 
+In computing, the star schema is the simplest style of data mart schema and is the approach most widely used to develop data warehouses and dimensional data marts. The star schema consists of one or more fact tables referencing any number of dimension tables. The star schema is an important special case of the snowflake schema, and is more effective for handling simpler queries. The star schema separates business process data into facts, which hold the measurable, quantitative data about a business, and dimensions which are descriptive attributes related to fact data. Examples of fact data include sales price, sale quantity, and time, distance, speed and weight measurements. Related dimension attribute examples include product models, product colors, product sizes, geographic locations, and salesperson names. A star schema that has many dimensions is sometimes called a centipede schema. Having dimensions of only a few attributes, while simpler to maintain, results in queries with many table joins and makes the star schema less easy to use.
+
+15. What do you mean by SETL? 
+(SET Theory Language) A programming language developed by Jack Schwartz in the early 1970s. It is based on set theory and used for mathematical and telecommunications applications. 
